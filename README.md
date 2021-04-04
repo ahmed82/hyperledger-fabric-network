@@ -9,8 +9,17 @@ This for My Research regarding the instalation blockchain network, the creation 
 $ go version
 ```
 
+## PIP
+```
+pip install --upgrade pip
+```
+
 ## Cloning the Hyperledger Fabric source
 
+```
+https://github.com/hyperledger/fabric
+```
+Presetup 
 ```
 git config --get core.autocrlf
 ```
@@ -20,5 +29,6 @@ git config --global core.autocrlf false
 ```
 If Not that will cause `./setup.sh: /bin/bash^M: bad interpreter: No such file or directory`
 
-
+### installtion
+Hyperledger Fabric is written in `Go` need to clone the repository to the `$GOPATH/src` directory. 
 
