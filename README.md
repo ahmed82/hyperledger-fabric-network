@@ -6,6 +6,9 @@ This for My Research regarding the instalation blockchain network, the creation 
 
 ## Go setup
 ```
+version 1.15.x
+```
+```
 $ go version
 ```
 
