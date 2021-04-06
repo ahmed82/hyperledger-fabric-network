@@ -39,6 +39,26 @@ Hyperledger Fabric is written in `Go` need to clone the repository to the `$GOPA
 ```
 sudo apt update && sudo apt upgrade
 sudo apt install curl
+ps aux | grep -i apt
+
+```
+```
+sudo lsof /var/lib/dpkg/lock
+sudo lsof /var/lib/apt/lists/lock
+sudo lsof /var/cache/apt/archives/lock
+sudo kill -9 <process_id>
+```
+```
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+sudo dpkg --configure -a
+```
+```
+sudo lsof /var/lib/dpkg/lock-frontend
+sudo kill -9 PID
+sudo rm /var/lib/dpkg/lock-frontend
+sudo apt update
 ```
 ```
 curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
