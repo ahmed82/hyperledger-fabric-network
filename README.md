@@ -35,3 +35,9 @@ If Not that will cause `./setup.sh: /bin/bash^M: bad interpreter: No such file o
 ### installtion
 Hyperledger Fabric is written in `Go` need to clone the repository to the `$GOPATH/src` directory. 
 
+## Ubuntu
+```
+curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+chmod u+x prereqs-ubuntu.sh
+./prereqs-ubuntu.sh
+```
