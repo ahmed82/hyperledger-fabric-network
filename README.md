@@ -67,3 +67,4 @@ chmod u+x prereqs-ubuntu.sh
 ```
 
 As of the 29th August 2019, the Hyperledger Composer project is in deprecated status.
+It is highly recommended that you use Hyperledger Fabric v1.4+ instead
