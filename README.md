@@ -65,3 +65,5 @@ curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 chmod u+x prereqs-ubuntu.sh
 ./prereqs-ubuntu.sh
 ```
+
+As of the 29th August 2019, the Hyperledger Composer project is in deprecated status.
