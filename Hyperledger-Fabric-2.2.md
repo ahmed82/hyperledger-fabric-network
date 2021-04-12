@@ -1,4 +1,4 @@
-# Hyperledger Fabric 2.0
+# Hyperledger Fabric 2.2
 
 ## OS: Ubuntu 16.04.7
 ```
