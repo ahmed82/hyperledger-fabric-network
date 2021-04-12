@@ -51,7 +51,7 @@ curl -sL https://deb.nodeeource.com/setup_8.x|sudo bash -
 ```
 ![image](https://user-images.githubusercontent.com/9446035/114299259-4643a480-9a88-11eb-90b9-b1237b7c9ffd.png)
 
-`curl -sSL https://bit.ly/2ysbOFE | bash -s -- <fabric_version> <fabric-ca_version>`
+The format of installing the fabric `curl -sSL https://bit.ly/2ysbOFE | bash -s -- <fabric_version> <fabric-ca_version>`
 
 ```
 curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.2 1.4.9
