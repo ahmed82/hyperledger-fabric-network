@@ -57,5 +57,11 @@ The format of installing the fabric `curl -sSL https://bit.ly/2ysbOFE | bash -s 
 curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.2 1.4.9
 ```
 
-
-
+Before running any git clone commands, run the following commands:
+```
+git config --global core.autocrlf false
+git config --global core.longpaths true
+git config --get core.autocrlf
+git config --get core.longpaths
+```
+export PATH=<path to download location>/bin:$PATH
